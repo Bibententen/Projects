@@ -1,0 +1,97 @@
+"Parap"	1
+"Penrith"	1
+"Perth"	363
+"Phillip Island"	1
+"Port Douglas"	2
+"Port Macquarie"	1
+"Port Melbourne"	2
+"Portland"	1
+"Redfern"	2
+"Richmond"	4
+"Roleystone"	1
+"Sawyers Valley"	1
+"South Brisbane"	3
+"South Melbourne"	502
+"Melton"	1
+"Menai"	1
+"Moe"	1
+"Mooloolaba"	1
+"Mount Lawley"	1
+"Newcastle"	17
+"No city info"	2529
+"No location info"	1788
+"Noosa Heads"	1
+"North Booval"	2
+"North Ipswich"	1
+"North Sydney"	2
+"Other country"	994
+"Broome"	1
+"Brunswick"	1
+"Bunbury"	1
+"Byron Bay"	1
+"Caboolture"	1
+"Cairns"	7
+"Campbelltown"	2
+"Canberra"	116
+"City of Parramatta"	5
+"Coffs Harbour"	2
+"Collingwood"	2
+"Coonawarra"	2
+"Cranbourne"	2
+"Cronulla"	2
+"Crows Nest"	1
+"Darwin"	26
+"Devonport"	1
+"Dubbo"	1
+"Echuca"	1
+"Frankston East"	1
+"Fremantle"	1
+"Geelong"	11
+"Geraldton"	5
+"Gold Coast"	55
+"Goolwa"	1
+"Gosford"	1
+"Granville"	1
+"Hamilton"	1
+"Healesville"	1
+"Hobart"	31
+"Jurien Bay"	2
+"Karratha"	1
+"Launceston"	1
+"Mackay"	3
+"Mandurah"	2
+"Manly"	2
+"Melbourne"	953
+"South Perth"	2
+"Southbank"	1
+"Sydney"	1657
+"Tamworth"	1
+"Tom Price"	1
+"Toodyay"	2
+"Toowoomba"	3
+"Townsville"	1
+"Traralgon"	1
+"Victoria Park"	15
+"Wamuran"	1
+"Warragul"	1
+"West Melbourne"	1
+"West Perth"	2
+"Whyalla"	1
+"Wodonga"	2
+"Wollongong"	8
+"Yeppoon"	1
+"York"	1
+"Adelaide Hills"	2
+"Adelaide"	290
+"Albany"	2
+"Angaston"	2
+"Ballarat Central"	1
+"Ballarat"	7
+"Ballina"	2
+"Bathurst"	1
+"Bendigo"	4
+"Berriedale"	1
+"Beverley"	1
+"Bondi"	2
+"Brighton-Le-Sands"	1
+"Brisbane"	510
