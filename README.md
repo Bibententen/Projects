@@ -1,5 +1,7 @@
 # Duy Pham — Data Projects
 
+![Duy Pham data projects portfolio: Python, data processing, feature engineering and machine learning](assets/portfolio-banner.svg)
+
 A selection of academic projects covering Python data processing, data preparation and machine learning. This portfolio highlights the foundations I am building on as I move toward Data Engineer roles.
 
 ## Start here
@@ -9,6 +11,39 @@ A selection of academic projects covering Python data processing, data preparati
 | [Text processing with MapReduce & Dask](MapReduce%20%26%20DASK/) | MongoDB-to-file preparation, map/reduce aggregation, sorting and TF-IDF processing | Python, MongoDB, mrjob, Dask, pandas, scikit-learn, NLTK |
 | [Melbourne Airbnb price prediction](Predicting%20house%20rental%20price%20in%20Melbourne/) | Data cleaning and feature engineering within a team forecasting assignment; my assigned contribution was Task 2 | Python, pandas, scikit-learn |
 | [Customer clustering](Customer%20clustering%20project/) | CSV exploration, customer segmentation and cluster summaries | Python, pandas, scikit-learn |
+
+## A look inside the projects
+
+### Text processing workflow
+
+The MapReduce project prepares MongoDB records for separate counting, sorting and ranking scripts. This diagram summarizes the local workflow; the TF-IDF model is fitted in memory before conversion to Dask.
+
+```mermaid
+flowchart LR
+    A[("Local MongoDB")]
+    A --> B["Text preparation"]
+    B --> C["Text files"]
+    C --> D["mrjob counts and sorting"]
+    C --> E["In-memory TF-IDF"]
+    E --> F["Dask sorting"]
+    D --> G["Result files"]
+    F --> G
+```
+
+### Customer clustering notebook
+
+<table>
+  <tr>
+    <th>Explore the customer data</th>
+    <th>Inspect cluster inertia</th>
+  </tr>
+  <tr>
+    <td><img src="assets/customer-age-distribution.png" alt="Historical notebook histogram showing the customer age distribution with a density curve" width="420"></td>
+    <td><img src="assets/customer-clustering-elbow.png" alt="Historical notebook elbow plot showing cluster inertia for one through ten KMeans clusters" width="420"></td>
+  </tr>
+</table>
+
+These figures are copied from the notebook's saved outputs. They illustrate the original exploration, not a fresh execution or validated model performance. [Explore the clustering project](Customer%20clustering%20project/).
 
 ## Other work
 
